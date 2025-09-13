@@ -1,0 +1,15 @@
+[package]
+name = "Blockchainbasedpollingapp"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule="0x922258bd0d528c9aa11999807e51d7e1d0d8c7ac4e62fd09eea039027c5f0c26"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
